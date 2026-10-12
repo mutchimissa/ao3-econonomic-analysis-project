@@ -17,6 +17,8 @@ Correlation does not equal causation. Results (and subsequent outliers) are subj
 There is a gap between April 2021 and April 2022 because of an error in data collection. An attempts to amend this was made by joining a second dataset to the first; anyhow, calculations will be made with this gap in mind.
 
 ## Data sources
-2008-10 to 2021-02 --> [Selective data dump for fan statisticians, AO3](https://archiveofourown.org/admin_posts/18804)
-2021-03 to 2022-03 --> Gap
-2022-04 to 2025-02 --> [archiveofourown-meta, trentmkelly](https://huggingface.co/datasets/trentmkelly/archiveofourown-meta)
+2008-10 to 2021-02 -->  [Selective data dump for fan statisticians, AO3](https://archiveofourown.org/admin_posts/18804)
+
+2021-03 to 2022-03 -->  Gap
+
+2022-04 to 2025-02 -->  [archiveofourown-meta, trentmkelly](https://huggingface.co/datasets/trentmkelly/archiveofourown-meta)
