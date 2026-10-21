@@ -23,6 +23,8 @@ There is a gap between April 2021 and April 2022 because of an error in data col
 
 2022-04 to 2025-02 -->  [archiveofourown-meta, trentmkelly](https://huggingface.co/datasets/trentmkelly/archiveofourown-meta)
 
+Unemployment Rate --> 
+
 ## AO3 Log Growth Rate vs OECD Unemployment Rate (monthly)
 ### Correlation
 
@@ -62,6 +64,10 @@ There is a gap between April 2021 and April 2022 because of an error in data col
 | F-test p-value | 0.1951 |
 | Observations | 182 |
 
+### Findings
+
+The Pearson correlation indicates extremely weak correlation between AO3 log growth and unemployment rate. With p = 0.195, the findings are not statistically significant at the 5% level. Thus, there is insufficient evidence of any correlation between uploads to AO3 and unemployment.
+
 ## AO3 Log Growth Rate vs U.S. CPI (Monthly, 2017 onwards)
 ### Simple Regression: CPI Growth
 
@@ -100,7 +106,7 @@ There is a gap between April 2021 and April 2022 because of an error in data col
 
 ---
 
-### Simple Regression: Lagged CPI Growth (1 Month)
+### Simple Regression: Lagged U.S. CPI Growth (1 Month)
 
 **Model:** `log_growth ~ cpi_growth_lag1`
 
@@ -134,3 +140,11 @@ There is a gap between April 2021 and April 2022 because of an error in data col
 | F-statistic | 1.059 |
 | F-test p-value | 0.3066 |
 | Observations | 82 |
+
+### Findings
+
+CPI growth has a negative regression coefficient of -12.433, this suggests a statistically significant negative association with AO3 growth at the 1% significance level (p = 0.00981). In simpler terms, a one-unit increase in CPI growth is associated with a 12.433 unit decrease in AO3 log growth on average within the first regression of the section. 
+
+On the other hand, the lagged CPI growth shows a negative (-5.045) but statistically insignificant (p = 0.307) correlation with AO3 Log Growth. 
+
+It must be noted that in comparison to the regression against unemployment rate, both CPI regressions have a significantly smaller amount of observations due to limited datasets.
