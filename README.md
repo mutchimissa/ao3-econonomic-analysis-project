@@ -23,7 +23,9 @@ There is a gap between April 2021 and April 2022 because of an error in data col
 
 2022-04 to 2025-02 -->  [archiveofourown-meta, trentmkelly](https://huggingface.co/datasets/trentmkelly/archiveofourown-meta)
 
-Unemployment Rate --> 
+Unemployment Rate -->  [Monthly unemployment rates, OECD](https://data-explorer.oecd.org/vis?lc=en&df[ds]=DisseminateFinalDMZ&df[id]=DSD_LFS%40DF_IALFS_UNE_M&df[ag]=OECD.SDD.TPS&df[vs]=1.0&dq=..._Z.Y._T.Y_GE15..M&lom=LASTNPERIODS&lo=13&to[TIME_PERIOD]=false&pg=0)
+
+CPI -->  [Consumer price indices (CPIs,HICPs), COICOP 2018, OECD](https://data-explorer.oecd.org/vis?tm=CPI&pg=0&snb=35&df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_PRICES_COICOP2018%40DF_PRICES_C2018_ALL&df[ag]=OECD.SDD.TPS&df[vs]=1.0&dq=.M.N.CPI.PA._T.N.GY&lom=LASTNPERIODS&lo=13&to[TIME_PERIOD]=false&isAvailabilityDisabled=false&page=0&bp=true)
 
 ## AO3 Log Growth Rate vs OECD Unemployment Rate (monthly)
 ### Correlation
